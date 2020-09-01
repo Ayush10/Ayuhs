@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc77c1ba-a7cb-4416-bbc6-9b4bb967bbcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/skins/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/pink.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="bc77c1ba-a7cb-4416-bbc6-9b4bb967bbcf" name="Default Changelist" comment="Third Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +49,16 @@
       <option name="presentableId" value="Default" />
       <updated>1598972484250</updated>
       <workItem from="1598972487458" duration="662000" />
-      <workItem from="1598977392037" duration="3940000" />
+      <workItem from="1598977392037" duration="4259000" />
     </task>
+    <task id="LOCAL-00001" summary="Third Commit">
+      <created>1598981684795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598981684795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +74,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1598977694541">
