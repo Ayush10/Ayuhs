@@ -401,9 +401,8 @@
 <!--        Service Section End-->
 
 <!--        Portfolio Section-->
-        <section class="portfolio section hidden">
+        <section class="portfolio section ">
             <div class="container">
-                <div class="container">
                     <div class="row">
                         <div class="portfolio-title padd-15">
                             <h2>Portfolio</h2>
@@ -411,12 +410,103 @@
                     </div>
                     <div class="row">
                         <div class="portfolio-filter padd-15">
-                            <button type="button" data-filter="all">All</button>
+                            <button type="button" class="active" data-filter="all">All</button>
                             <button type="button" data-filter="app-development">App Development</button>
-                                <button type="button" data-filter="web-design">Web Design</button>
+                            <button type="button" data-filter="web-design">Web Design</button>
                             <button type="button" data-filter="wordpress">WordPress</button>
                         </div>
                     </div>
+                <div class="row">
+<!--                    Portfolio Item-->
+                    <div class="portfolio-item padd-15" data-category="app-development">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/1.jpg" alt="portfolio"/>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>App Development</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    Portfolio Item End-->
+<!--                    Portfolio Item-->
+                    <div class="portfolio-item padd-15" data-category="wordpress">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/5.jpg" alt="portfolio"/>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>WordPress</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    Portfolio Item End-->
+<!--                    Portfolio Item-->
+                    <div class="portfolio-item padd-15" data-category="web-design">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/3.jpg" alt="portfolio"/>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Web Design</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    Portfolio Item End-->
+<!--                    Portfolio Item-->
+                    <div class="portfolio-item padd-15" data-category="app-development">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/4.jpg" alt="portfolio"/>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>App Development</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    Portfolio Item End-->
+<!--                    Portfolio Item-->
+                    <div class="portfolio-item padd-15" data-category="web-design">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/2.jpg" alt="portfolio"/>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Web Design</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    Portfolio Item End-->
+<!--                    Portfolio Item-->
+                    <div class="portfolio-item padd-15" data-category="app-development">
+                        <div class="portfolio-item-inner shadow-dark">
+                            <div class="portfolio-img">
+                                <img src="images/portfolio/6.jpg" alt="portfolio"/>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>App Development</h4>
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    Portfolio Item End-->
                 </div>
             </div>
         </section>
@@ -425,6 +515,32 @@
     <!-- Main Content End-->
 </div>
 <!-- Main Container End -->
+<!-- Light Box -->
+<div class="lightbox">
+    <div class="lightbox-content">
+        <div class="lightbox-close">&times;</div>
+        <img src="images/portfolio/2.jpg" crossorigin="lightbox-img" onclick="nextItem()"/>
+        <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter">/div>
+        </div>
+    </div>
+    <div class="lightbox-controls">
+        <div class="prev-item" onclick="prevItem()">
+            <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="next-item" onclick="nextItem()">
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+</div>
+<!-- Light Box End -->
+
+<!-- Template js -->
+<script src="js/script.js">
+
+</script>
+
 </body>
 </html>
 
